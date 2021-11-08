@@ -46,7 +46,7 @@ a {
   background: linear-gradient(top, #d645d6 0%, #c7d2e4 100%);
 }
 a:hover {
-  background-color: #8ba4c9;
+  background-color: #c7d2e4;
   background: -webkit-linear-gradient(bottom, #d645d6 0%, #c7d2e4 100%);
   background: -moz-linear-gradient(bottom, #d645d6 0%, #c7d2e4 100%);
   background: linear-gradient(bottom, #d645d6 0%, #c7d2e4 100%);
