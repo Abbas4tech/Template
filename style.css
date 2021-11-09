@@ -14,6 +14,7 @@ main {
   align-items: center;
 
   border-radius: 2%;
+
   background-image: linear-gradient(
     to bottom right,
     #4affde 0%,
@@ -22,24 +23,31 @@ main {
     #ff34d2 100%
   );
   background-size: 200% 200%;
+
   animation: movingGradient 5s linear infinite alternate;
 }
 div {
   font-size: 50px;
   font-weight: 500;
+
   color: #fff;
 }
 a {
-  text-decoration: none;
-  color: #fff;
-  background-color: #d645d6;
-  border-radius: 10px;
-  text-align: center;
   width: 150px;
   height: 30px;
-  padding: 10px;
-  font-size: 20px;
+
   margin-top: 25px;
+  padding: 10px;
+
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+
+  color: #fff;
+  background-color: #d645d6;
+
+  border-radius: 10px;
+
   box-shadow: 6px 0 10px 0 rgba(101, 102, 104, 0.4);
   background: -webkit-linear-gradient(top, #d645d6 0%, #c7d2e4 100%);
   background: -moz-linear-gradient(top, #d645d6 0%, #c7d2e4 100%);
