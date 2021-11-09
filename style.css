@@ -13,7 +13,7 @@ main {
   justify-content: center;
   align-items: center;
 
-  border-radius: 2%;
+  border-radius: 25px;
 
   background-image: linear-gradient(
     to bottom right,
