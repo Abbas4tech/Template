@@ -30,7 +30,7 @@ main {
   );
   background-size: 200% 200%;
 
-  animation: movingGradient 5s linear infinite alternate;
+  animation: movingGradient 15s linear infinite alternate;
 }
 div {
   font-size: 50px;
@@ -108,4 +108,29 @@ nav li:hover {
   color: #000;
   background: #fff;
   border-radius: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+  div {
+    font-size: 27px;
+    font-weight: 500;
+  }
+  nav ul {
+    margin: 10px;
+    margin-top: 25px;
+  }
+  nav li {
+    padding: 6px;
+    margin: aur 5px;
+    font-size: 10px;
+  }
+  a {
+    border-radius: 10px;
+    text-align: center;
+    width: 130px;
+    height: 25px;
+    padding: 7.5px;
+    font-size: 15px;
+    margin-top: 25px;
+  }
 }
