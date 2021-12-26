@@ -13,14 +13,20 @@ main {
   justify-content: center;
   align-items: center;
 
-  border-radius: 25px;
+  border-radius: 15px;
 
   background-image: linear-gradient(
     to bottom right,
-    #4affde 0%,
-    #5b9dff 40%,
-    #d06bff 60%,
-    #ff34d2 100%
+    #ffba08 0%,
+    #faa307 10%,
+    #f48c06 20%,
+    #e85d04 30%,
+    #dc2f02 40%,
+    #d00000 50%,
+    #9d0208 60%,
+    #6a040f 70%,
+    #370617 85%,
+    #03071e 100%
   );
   background-size: 200% 200%;
 
@@ -44,20 +50,35 @@ a {
   text-align: center;
 
   color: #fff;
-  background-color: #d645d6;
+  background-color: #c32f27;
 
   border-radius: 10px;
 
   box-shadow: 6px 0 10px 0 rgba(101, 102, 104, 0.4);
-  background: -webkit-linear-gradient(top, #d645d6 0%, #c7d2e4 100%);
-  background: -moz-linear-gradient(top, #d645d6 0%, #c7d2e4 100%);
-  background: linear-gradient(top, #d645d6 0%, #c7d2e4 100%);
+  background: -webkit-linear-gradient(
+    top,
+    #c32f27 0%,
+    #d8572a 50%,
+    #db7c26 100%
+  );
+  background: -moz-linear-gradient(top, #c32f27 0%, #d8572a 50%, #db7c26 100%);
+  background: linear-gradient(top, #c32f27 0%, #d8572a 50%, #db7c26 100%);
 }
 a:hover {
   background-color: #c7d2e4;
-  background: -webkit-linear-gradient(bottom, #d645d6 0%, #c7d2e4 100%);
-  background: -moz-linear-gradient(bottom, #d645d6 0%, #c7d2e4 100%);
-  background: linear-gradient(bottom, #d645d6 0%, #c7d2e4 100%);
+  background: -webkit-linear-gradient(
+    bottom,
+    #c32f27 0%,
+    #d8572a 50%,
+    #db7c26 100%
+  );
+  background: -moz-linear-gradient(
+    bottom,
+    #c32f27 0%,
+    #d8572a 50%,
+    #db7c26 100%
+  );
+  background: linear-gradient(bottom, #c32f27 0%, #d8572a 50%, #db7c26 100%);
 }
 @keyframes movingGradient {
   from {
@@ -66,4 +87,25 @@ a:hover {
   to {
     background-position: 100% 100%;
   }
+}
+
+nav ul {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  margin: 25px;
+}
+nav li {
+  margin: auto 10px;
+  padding: 10px;
+  flex-direction: row;
+  list-style: none;
+  color: #fff;
+  cursor: pointer;
+}
+nav li:hover {
+  color: #000;
+  background: #fff;
+  border-radius: 20px;
 }
